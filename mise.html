@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おすすめ</title>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+            width: 400px;
+            height: 300px;
+        }
+
+
+        main {
+            background-color: aquamarine;
+            width: 60%;
+            padding: 0.5rem;
+        }
+
+        aside {
+            width: 40%;
+            padding: 1rem;
+
+
+
+
+        }
+
+        .sidebar {
+            position: fixed;
+            border: solid 3px red;
+            padding: 0  10px ;
+        }
+
+        aside a {
+            color: blue;
+
+        }
+
+        aside li {
+            list-style: none;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        .osusume {
+            margin-left: 30px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <p>寿司</p>
+        </div>
+        <div class="navi">
+            <a href="a.html">ホーム</a>
+            <a href="osusume.html">おすすめ</a>
+            <a href="mise.html">店舗</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="osusume">
+                <h1>店舗情報</h1>
+                <p>盛岡市内の店舗情報</p>
+            </div>
+
+
+
+            <section id="kappa">
+                <h2>かっぱ寿司</h2>
+                <h3>盛岡北山店</h3>
+                <img src="img/かっぱ寿司　盛岡南.jpg">
+
+
+
+                <h3>盛岡南店</h3>
+                <img src="img/かっぱ寿司　北山.png">
+
+
+
+            </section>
+
+            <section id="sushiro">
+                <h2>スシロー</h2>
+                <img src="img/スシロー.jpg">
+            </section>
+
+            <section id="hama">
+                <h2>3位</h2>
+                <h3></h3>
+            </section>
+
+            <section id="kura">
+                <h2>2位</h2>
+                <h3></h3>
+            </section>
+
+
+        </main>
+
+        <aside>
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#kappa">かっぱ寿司</a></li>
+                    <li><a href="#sushiro">スシロー</a></li>
+                    <li><a href="#hama">はま寿司</a></li>
+                    <li><a href="#kura">くら寿司</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+
+</body>
+
+</html>
